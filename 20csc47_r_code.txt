@@ -1,0 +1,8 @@
+
+> library(readxl)
+> Apple_2022 <- read_excel("C:/Users/Santhosh/Downloads/Apple_2022.xlsx")
+> View(Apple_2022)
+> mean(Apple_2022$modal_price)
+[1] 7654.321
+> var(Apple_2022$modal_price)
+[1] 426057558
